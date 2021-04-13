@@ -1,0 +1,169 @@
+h1 {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    padding-top: 0.7rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 27vh;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 3rem;
+}
+
+img {
+    height: 142px;
+    width: auto;
+}
+
+.container1 p {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 70vh;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 1rem;
+    background-color: #efefef;
+}
+
+.titre2 {
+    width: 100%;
+    height: 8vh;
+}
+
+.titre2 p {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container3 {
+    border-radius: 1em;
+    height: 70%;
+    width: 15%;
+    background-color: white;
+    text-align: left;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    box-shadow: 0 0 0.5rem gray;
+
+}
+
+.container3 p {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container4 {
+    border-radius: 1em;
+    height: 70%;
+    width: 15%;
+    background-color: white;
+    text-align: left;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    box-shadow: 0 0 0.5rem gray;
+
+}
+
+.container4 p {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container5 {
+    border-radius: 1em;
+    height: 70%;
+    width: 15%;
+    background-color: white;
+    text-align: left;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    box-shadow: 0 0 0.5rem gray;
+
+}
+
+.container5 p {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container6 {
+    border-radius: 1em;
+    height: 70%;
+    width: 15%;
+    background-color: white;
+    text-align: left;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    box-shadow: 0 0 0.5rem gray;
+
+}
+
+.container6 p {
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container7 {
+    border-radius: 2em;
+    color: white;
+    background-color: black;
+    height: 2.5vh;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-top: 1rem;
+}
+
+.text {
+    height: 21rem;
+}
+
+.cgv {
+    padding-top: 1rem;
+    color:#5e5a5a;
+}
+
+a {
+    color:#5e5a5a;
+}
+
+.test {
+    width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .test {
+        width: 45%;
+    }
+
+   
+}
