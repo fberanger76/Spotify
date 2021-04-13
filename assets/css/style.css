@@ -15,17 +15,29 @@ h2 {
 .container1 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100vw;
-    height: 27vh;
-    text-align: center;
     font-size: 12px;
-    padding-top: 3rem;
+
 }
 
 img {
-    height: 142px;
+    height: 8rem;
     width: auto;
+
+}
+
+.toto {
+}
+
+.test {
+    width: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+
 }
 
 .container1 p {
@@ -37,7 +49,7 @@ img {
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100vw;
     height: 70vh;
     text-align: center;
@@ -66,6 +78,8 @@ img {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     box-shadow: 0 0 0.5rem gray;
+    margin: 0 1rem 0 1rem;
+
 
 }
 
@@ -84,6 +98,7 @@ img {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     box-shadow: 0 0 0.5rem gray;
+    margin: 0 1rem 0 1rem;
 
 }
 
@@ -102,6 +117,7 @@ img {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     box-shadow: 0 0 0.5rem gray;
+    margin: 0 1rem 0 1rem;
 
 }
 
@@ -120,6 +136,7 @@ img {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
     box-shadow: 0 0 0.5rem gray;
+    margin: 0 1rem 0 1rem;
 
 }
 
@@ -139,7 +156,7 @@ img {
     font-size: 14px;
     font-style: normal;
     font-family: 'Noto Sans KR', sans-serif;
-    padding-top: 1rem;
+    padding-top: 1.3rem;
 }
 
 .text {
@@ -148,22 +165,64 @@ img {
 
 .cgv {
     padding-top: 1rem;
-    color:#5e5a5a;
+    color: #5e5a5a;
 }
 
 a {
-    color:#5e5a5a;
+    color: #5e5a5a;
 }
 
-.test {
-    width: 25%;
-}
+
 
 @media screen and (max-width: 1200px) {
+    .container1 {
+        width: 100%;
+        justify-content: center;
+    }
 
     .test {
         width: 45%;
+        justify-content: left;
+
     }
 
-   
+    .toto {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .container2 {
+        width: 100%;
+        align-items: center;
+        flex-flow: column;
+        height: 100%;
+        gap: 1rem;
+
+    }
+
+    .container3 {
+        width: 30%;
+    }
+
+    .container4 {
+        width: 30%;
+    }
+
+    .container5 {
+        width: 30%;
+    }
+
+    .container6 {
+        width: 30%;
+    }
+
+    img {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        height: 6rem;
+    }
+
+
 }
